@@ -12,9 +12,9 @@ Type `fe-id`, and paste your extension id.
 
 <image width="500" src="./images/Xnip2021-03-05_21-34-07.jpg">
 
-### 3. Run an tools
+### 3. Run a tools
 
-This command will open the tools in your browser, and execute the text from your clipboard automatically.
+This command will open the tools in your browser, and paste the text from your clipboard automatically.
 
 <image width="500" src="./images/Xnip2021-03-05_21-34-57.jpg">
 
