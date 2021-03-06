@@ -1,6 +1,6 @@
 # FE Helper
 
-<image width="500" src="Kapture 2021-03-06 at 20.08.10.gif">
+<image width="500" src="example.gif">
 
 ## How to use?
 
