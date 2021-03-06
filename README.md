@@ -1,6 +1,6 @@
 # FE Helper
 
-<image width="500" src="example.gif">
+<image width="500" src="./images/example.gif">
 
 ## How to use?
 
