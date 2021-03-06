@@ -1,5 +1,7 @@
 # FE Helper
 
+<image width="500" src="Kapture 2021-03-06 at 20.08.10.gif">
+
 ## How to use?
 
 ### 1. Install [FE-Helper](https://github.com/zxlie/FeHelper), and copy the extension id from your chrome browser.
