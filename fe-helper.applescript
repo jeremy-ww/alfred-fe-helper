@@ -9,7 +9,7 @@ on run argv
   set apps to {json:"json-format", encode:"en-decode", regexp:"regexp", format:"code-beautify", qrcode:"qr-code", codecompress:"code-compress", timestamp:"timestamp", imagebase64:"image-base64", password:"password", qrdecode:"qr-decode", postman:"postman"}
   set app_name to (item 1 of argv)
   set tools to (getRecordValue(app_name, apps))
-  tell application "chrome"
+  tell application "/Applications/Google Chrome.app"
     activate
     open location "chrome-extension://" & FE_HELPER_ID & "/dynamic/index.html?tool=" & tools
     repeat until (loading of front window's active tab is false)
