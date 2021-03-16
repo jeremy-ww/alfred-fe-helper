@@ -10,6 +10,7 @@ on run argv
   set app_name to (item 1 of argv)
   set tools to (getRecordValue(app_name, apps))
   tell application "chrome"
+    activate
     open location "chrome-extension://" & FE_HELPER_ID & "/dynamic/index.html?tool=" & tools
     repeat until (loading of front window's active tab is false)
     end repeat
