@@ -11,7 +11,7 @@ on run argv
   set tools to (getRecordValue(app_name, apps))
   tell application "/Applications/Google Chrome.app"
     activate
-    open location "chrome-extension://" & FE_HELPER_ID & "/dynamic/index.html?tool=" & tools
+    open location "chrome-extension://" & FE_HELPER_ID & "/" & tools & "/index.html"
     repeat until (loading of front window's active tab is false)
     end repeat
     delay 0.5
